@@ -1,5 +1,5 @@
 
-let response = process.env.SECRETS_SHHH;
+let response = env.SECRETS_SHHH;
 if (response)
 {
    console.log("The response was truthy.");
