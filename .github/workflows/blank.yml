@@ -24,7 +24,7 @@ jobs:
     steps:
       - shell: bash
         env:
-          SECRETS_SHHH: ${{ secrets.randomSecret }}
+          SECRETS_SHHH: ${{ secrets.RANDOM_SECRET }}
         run: |
           touch newFile.js | $SECRETS_SHH > newFile.js
       
