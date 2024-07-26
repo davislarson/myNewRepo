@@ -1,7 +1,5 @@
-let secrets = require("./secrets");
 
-
-let response = secrets();
+let response = $SECRETS_SHHH;
 if (response)
 {
    console.log("The response was truthy.");
