@@ -26,8 +26,8 @@ jobs:
         env:
           SECRETS_SHHH: ${{ secrets.RANDOM_SECRET }}
         run: |
-          echo "$SECRETS_SHHH" > newFile.js
-          cat newFile.js
+          echo "$SECRETS_SHHH" > newFIle.js
+          cat newFIle.js
       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
